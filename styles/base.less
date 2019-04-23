@@ -55,14 +55,14 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: @syntax-gutter-text-color;
 }
 
 .syntax--keyword {
-  color: @purple;
+  color: @Magenta;
 
   &.syntax--control {
-    color: @purple;
+    color: @Magenta;
   }
 
   &.syntax--operator {
@@ -70,43 +70,43 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--special-method {
-    color: @blue;
+    color: @Blue;
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @Yellow;
   }
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @Magenta;
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @Yellow;
 
   &.syntax--character.syntax--escape {
-    color: @cyan;
+    color: @Cyan;
   }
 
   &.syntax--numeric {
-    color: @orange;
+    color: @Yellow;
   }
 
   &.syntax--other.syntax--color {
-    color: @cyan;
+    color: @Cyan;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @green;
+    color: @Green;
   }
 }
 
 .syntax--variable {
-  color: @red;
+  color: @Red;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: darken(@Red, 10%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -115,31 +115,31 @@ atom-text-editor {
 }
 
 .syntax--invalid.syntax--illegal {
-  background-color: @red;
+  background-color: @Red;
   color: @syntax-background-color;
 }
 
 .syntax--string {
-  color: @green;
+  color: @Green;
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: @Cyan;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @Yellow;
     }
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @Red;
   }
 }
 
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @light-gray;
+      color: @syntax-gutter-text-color;
     }
 
     &.syntax--string,
@@ -151,89 +151,89 @@ atom-text-editor {
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @blue;
+      color: @Blue;
     }
 
     &.syntax--bold {
-      color: @light-orange;
+      color: @BoldYellow;
       font-weight: bold;
     }
 
     &.syntax--italic {
-      color: @purple;
+      color: @Magenta;
       font-style: italic;
     }
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: darken(@Red, 10%);
   }
 
 }
 
 .syntax--support {
   &.syntax--class {
-    color: @light-orange;
+    color: @BoldYellow;
   }
 
   &.syntax--function  {
-    color: @cyan;
+    color: @Cyan;
 
     &.syntax--any-method {
-      color: @blue;
+      color: @Blue;
     }
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @blue;
+    color: @Blue;
   }
   &.syntax--name.syntax--type {
-    color: @light-orange;
+    color: @BoldYellow;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: @Green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @light-orange;
+    color: @BoldYellow;
   }
 
   &.syntax--name.syntax--section {
-    color: @blue;
+    color: @Blue;
   }
 
   &.syntax--name.syntax--tag {
-    color: @red;
+    color: @Red;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @Yellow;
 
     &.syntax--id {
-      color: @blue;
+      color: @Blue;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: @BoldYellow;
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @Yellow;
   }
 
   &.syntax--require {
-    color: @blue;
+    color: @Blue;
   }
 
   &.syntax--selector {
-    color: @purple;
+    color: @Magenta;
   }
 
   &.syntax--separator {
@@ -248,48 +248,48 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @Yellow;
     font-weight: bold;
   }
 
   &.syntax--changed {
-    color: @purple;
+    color: @Magenta;
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @Red;
   }
 
   &.syntax--italic {
-    color: @purple;
+    color: @Magenta;
     font-style: italic;
   }
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @blue;
+    color: @Blue;
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @Green;
   }
 
   &.syntax--list {
-    color: @red;
+    color: @Red;
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @Yellow;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: @Green;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @green;
+    color: @Green;
   }
 }
 
