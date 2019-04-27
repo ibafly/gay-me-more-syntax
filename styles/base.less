@@ -1,6 +1,7 @@
 @import "syntax-variables";
 
 atom-text-editor {
+
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -32,9 +33,9 @@ atom-text-editor {
     }
   }
 
+  .fold-marker:after,
   .gutter .line-number.folded,
-  .gutter .line-number:after,
-  .fold-marker:after {
+  .gutter .line-number:after {
     color: @light-gray;
   }
 
@@ -50,10 +51,7 @@ atom-text-editor {
     background-color: @syntax-selection-color;
   }
 }
-
-
 // Syntax styles
-
 .syntax--comment {
   color: @syntax-gutter-text-color;
 }
@@ -122,7 +120,6 @@ atom-text-editor {
 .syntax--string {
   color: @Green;
 
-
   &.syntax--regexp {
     color: @Cyan;
 
@@ -142,10 +139,10 @@ atom-text-editor {
       color: @syntax-gutter-text-color;
     }
 
-    &.syntax--string,
-    &.syntax--variable,
+    &.syntax--array,
     &.syntax--parameters,
-    &.syntax--array {
+    &.syntax--string,
+    &.syntax--variable {
       color: @syntax-text-color;
     }
 
@@ -166,9 +163,8 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@Red, 10%);
+    color: darken(@Red, 4%);
   }
-
 }
 
 .syntax--support {
@@ -176,7 +172,7 @@ atom-text-editor {
     color: @BoldYellow;
   }
 
-  &.syntax--function  {
+  &.syntax--function {
     color: @Cyan;
 
     &.syntax--any-method {
@@ -189,6 +185,7 @@ atom-text-editor {
   &.syntax--name.syntax--function {
     color: @Blue;
   }
+
   &.syntax--name.syntax--type {
     color: @BoldYellow;
     text-decoration: underline;
@@ -197,7 +194,9 @@ atom-text-editor {
   &.syntax--other.syntax--inherited-class {
     color: @Green;
   }
-  &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
+
+  &.syntax--name.syntax--class,
+  &.syntax--name.syntax--type.syntax--class {
     color: @BoldYellow;
   }
 
@@ -288,14 +287,12 @@ atom-text-editor {
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
+
   &.syntax--heading {
     color: @Green;
   }
 }
-
-
 // Mini editor
-
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }

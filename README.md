@@ -1,5 +1,10 @@
-# gay-me-more-syntax theme
+# Gay me more syntax theme
 
-A short description of your theme.
+## Monospace font Preference
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+- Mononoki
+- Lekton
+- Fira Code
+- Fixedsys Excelsior
+
+Various monospace fonts can be found in [fonts](https://atom.io/packages/fonts).
