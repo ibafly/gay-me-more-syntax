@@ -1,5 +1,7 @@
 # Gay me more syntax theme
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ibafly/gay-me-more-syntax.svg)](https://greenkeeper.io/)
+
 ## Monospace font Preference
 
 - Mononoki
