@@ -33,10 +33,12 @@ atom-text-editor {
     }
   }
 
-  .fold-marker:after,
   .gutter .line-number.folded,
   .gutter .line-number:after {
-    color: @light-gray;
+    color: @BoldMagenta;
+  }
+  .fold-marker:after {
+    color: @Blue;
   }
 
   .invisible {
@@ -163,7 +165,7 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@Red, 4%);
+    color: @Red;
   }
 }
 
@@ -220,7 +222,7 @@ atom-text-editor {
 
 .syntax--meta {
   &.syntax--class {
-    color: @BoldYellow;
+    color: @Orange;
   }
 
   &.syntax--link {
@@ -236,7 +238,7 @@ atom-text-editor {
   }
 
   &.syntax--separator {
-    background-color: @gray;
+    background-color: @syntax-gutter-text-color;
     color: @syntax-text-color;
   }
 }
@@ -295,4 +297,8 @@ atom-text-editor {
 // Mini editor
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
+}
+// `github`
+.github-FilePatchView:focus-within {
+  color: @BoldRed;
 }
