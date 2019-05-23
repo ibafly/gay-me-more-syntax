@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/ibafly/gay-me-more-syntax/compare/v0.1.1...v0.2.0) (2019-05-23)
+
+
+### Bug Fixes
+
+* brighten gutter text ([97c8015](https://github.com/ibafly/gay-me-more-syntax/commit/97c8015))
+* text is more clearer behind cursor ([9fe7d56](https://github.com/ibafly/gay-me-more-syntax/commit/9fe7d56))
+
+
+### Features
+
+* readable and fancy comments ([e114477](https://github.com/ibafly/gay-me-more-syntax/commit/e114477))
+
+
+
 ### [0.1.1](https://github.com/ibafly/gay-me-more-syntax/compare/v0.1.0...v0.1.1) (2019-05-15)
 
 
