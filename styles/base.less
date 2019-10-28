@@ -142,7 +142,7 @@ atom-text-editor {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      // the '//' before comments
+      // the '//' or '/*' before comments
       color: darken(@Magenta, 10%);
     }
 
@@ -303,6 +303,6 @@ atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
 }
 // `github`
-.github-FilePatchView:focus-within .gutter.new .line-number.github-FilePatchView-line--selected {
+.github-FilePatchView:focus-within .gutter.syntax--new .line-number.github-FilePatchView-line--selected {
   color: @BoldRed;
 }
