@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/ibafly/gay-me-more-syntax/compare/v0.2.2...v0.2.3) (2019-10-28)
+
+
+### Bug Fixes
+
+* add selector prefix to avoid future breakage ([7433e71](https://github.com/ibafly/gay-me-more-syntax/commit/7433e7115a9476f16539aa5a3f504b5f4b254026))
+
 ### [0.2.2](https://github.com/ibafly/gay-me-more-syntax/compare/v0.2.1...v0.2.2) (2019-05-25)
 
 
